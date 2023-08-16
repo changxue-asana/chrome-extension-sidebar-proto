@@ -1,0 +1,22 @@
+{
+    "name": "Asana Sidebar Prototype",
+    "description": "Asana Sidebar Prototype",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "permissions": [
+        "webRequest",
+        "scripting",
+        "activeTab",
+        "clipboardRead",
+        "clipboardWrite",
+        "tabs"
+    ],
+    "host_permissions": [
+        "https://*/*",
+        "http://*/*"
+    ],
+    "action": {
+        "default_title": "Asana Sidebar Prototype",
+        "default_popup": "popup.html"
+    }
+}
